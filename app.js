@@ -1,10 +1,8 @@
 $(document).ready(function() {
-  $(".intro-section").animate({ //be sure to change the class of your element to "header"
-      // left:'250px',
-      // height:'150px',
-      // width:'150px'
-      height: '100vh'
-  });
+  $('.navbar-section').fadeOut();
+  $('.intro-section').fadeOut();
+  $(".navbar-section").fadeIn("slow");
+  $(".intro-section").fadeIn(2500);
   $('#about-me-section').fadeOut();
   $('#work-experience-section').fadeOut();
   $('#projects-section').fadeOut();
