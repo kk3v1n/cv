@@ -16,7 +16,6 @@
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  /* border: 2px solid #006100; */
 }
 
 #header-intro {
@@ -33,24 +32,35 @@ section {
   padding-top: 10%;
   padding-bottom: 10%;
 }
-/* #about-me-section{
+
+.other-projects{
   padding-top: 10%;
-  padding-bottom: 10%;
-} */
-
-.my-img-section {
-  text-align: center;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
 }
 
-.my-img-section:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+.card{
+  margin:2%;
 }
+
 
 .card-img-top {
   width: 100%;
-  height: 20rem;
-  object-fit: contain;
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+.lights{
+  opacity: 0.2;
+}
+
+
+/*email button*/
+
+.email-button{
+  margin: 1rem;
+}
+
+
+h2{
+  text-align: center;
 }
