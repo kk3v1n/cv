@@ -40,3 +40,37 @@ $(document).scroll(function() {
       $('#footer-section').fadeIn();
     }
   });
+
+
+
+  $("#about-nav").click(function(){
+    // $("#about-me-section").removeClass("temp-hide");
+    $('#about-me-section').fadeIn();
+  })
+
+  $('#work-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+  })
+
+  $('#projects-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+  })
+
+  $('#skills-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+    $('#skills-section').fadeIn();
+  })
+
+  $('#contact-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+    $('#skills-section').fadeIn();
+    $('#contact-section').fadeIn();
+    $('#footer-section').fadeIn();
+  })
