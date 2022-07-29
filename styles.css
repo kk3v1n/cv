@@ -34,6 +34,10 @@ h2:after {
 
 /* NavBar */
 
+.navbar-overall-padding{
+  padding-left: 2%;
+  padding-right: 2%;
+}
 
 /* First Page */
 
@@ -85,9 +89,6 @@ h2:after {
 
 /* Fourth Page */
 
-
-
-
 .card{
   margin:2%;
 }
@@ -98,15 +99,9 @@ h2:after {
   object-fit: cover;
 }
 
-
 .other-projects{
   padding-top: 10%;
 }
-
-
-
-
-
 
 /* Fifth Page */
 
@@ -133,15 +128,6 @@ h2:after {
 .contract-p{
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 
 

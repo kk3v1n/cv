@@ -11,25 +11,25 @@ $(document).ready(function() {
   $('#footer-section').fadeOut();
 });
 
-var position = $(window).scrollTop(); 
-var navbarVisible = true;
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if(scroll > position) {
-        // console.log('scrollDown');
-        if(!navbarVisible){
-          $("#navbar-id").removeClass("fixed-top");
-          navbarVisible = false;
-        }
+// var position = $(window).scrollTop(); 
+// var navbarVisible = true;
+// $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
+//     if(scroll > position) {
+//         // console.log('scrollDown');
+//         if(!navbarVisible){
+//           $("#navbar-id").removeClass("fixed-top");
+//           navbarVisible = false;
+//         }
         
-    } else {
-        //  console.log('scrollUp');
-        $("#navbar-id").addClass("fixed-top");
-        navbarVisible = true;
+//     } else {
+//         //  console.log('scrollUp');
+//         $("#navbar-id").addClass("fixed-top");
+//         navbarVisible = true;
         
-    }
-    position = scroll;
-});
+//     }
+//     position = scroll;
+// });
 
 $(document).scroll(function() {
     var y = $(this).scrollTop();
