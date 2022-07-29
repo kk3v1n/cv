@@ -11,6 +11,25 @@ $(document).ready(function() {
   $('#footer-section').fadeOut();
 });
 
+// var position = $(window).scrollTop(); 
+// var navbarVisible = true;
+// $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
+//     if(scroll > position) {
+//         // console.log('scrollDown');
+//         if(!navbarVisible){
+//           $("#navbar-id").removeClass("fixed-top");
+//           navbarVisible = false;
+//         }
+        
+//     } else {
+//         //  console.log('scrollUp');
+//         $("#navbar-id").addClass("fixed-top");
+//         navbarVisible = true;
+        
+//     }
+//     position = scroll;
+// });
 
 $(document).scroll(function() {
     var y = $(this).scrollTop();
@@ -40,3 +59,37 @@ $(document).scroll(function() {
       $('#footer-section').fadeIn();
     }
   });
+
+
+
+  $("#about-nav").click(function(){
+    // $("#about-me-section").removeClass("temp-hide");
+    $('#about-me-section').fadeIn();
+  })
+
+  $('#work-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+  })
+
+  $('#projects-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+  })
+
+  $('#skills-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+    $('#skills-section').fadeIn();
+  })
+
+  $('#contact-nav').click(function(){
+    $('#about-me-section').fadeIn();
+    $('#work-experience-section').fadeIn();
+    $('#projects-section').fadeIn();
+    $('#skills-section').fadeIn();
+    $('#contact-section').fadeIn();
+    $('#footer-section').fadeIn();
+  })
