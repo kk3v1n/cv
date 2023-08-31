@@ -1,27 +1,107 @@
 body{
   font-family: "League Spartan", sans-serif;
+  background-color: #F8F9FA;
+  color: #212529;
 }
 
-/* .page-footer-section {
-  width: 30%;
-} */
-/* need to select media querys per for screen sizes */
+/* header */
+.name-a{
+  text-decoration: none;
+  color: #212529;
+}
+.name-header {
+  text-align: center;
+  font-size: 330%;
+}
+.name-header :hover{
+  color: #6C757D;
+}
 
-/* @media (max-width: 978px) {
+/* Navbar elements */
+.nav-link{
+  color: #212529;
+}
+
+.nav-link :hover{
+  color: #6C757D;
+}
+.navbar-toggler{
+  width: 70vw;
+}
+.dropdown-menu{
+  width: 70vw;
+}
+.dropdown-menu > li> a.active{
+  background-color: #ADB5BD;
+}
+
+/* Section Header */
+.section-header{
+  color: #212529;
+  margin-bottom: 17px;
+}
+
+/* Page-section */
+
+@media (min-width: 975px) {
   .container {
-    padding:0;
-    margin:0;
+    width: 35vw;
   }
-} */
+}
 
-/* @media (min-width: 1000px) {
-  .container {
-    width: 550px;
+@media (min-width: 1680px) {
+  .project-picture {
+    width: 300px;
   }
-} */
+}
 
-ul {
-  list-style-type: none;
-  padding: 0;
+#about-info > p, #education-info>p{
+  font-size: large;
+}
+
+
+
+/* education info */
+#years-attended{
   margin: 0;
+}
+
+#school-attended{
+  font-size: x-large;
+}
+
+.vr{
+  width: 3px;
+  background-color: #212529;
+}
+
+/* Skills Section */
+.card-body{
+  background-color: #F8F9FA;
+}
+#skill-info>div>div>.card{
+  background-color: #F8F9FA;
+  border-color: #DEE2E6;
+  border-width: 5px;
+}
+
+@media (max-width: 340px) {
+  #school-attended{
+    font-size: 6vw;
+  }
+}
+
+/* Work Section */
+
+/* Projects Section */
+
+@media (min-width: 1680px) {
+  .project-picture {
+    width: 300px;
+  }
+}
+
+.other-projects>div>div>.card{
+  border-color: #DEE2E6;
+  border-width: 5px;
 }
