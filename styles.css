@@ -43,11 +43,11 @@ body{
 
 /* Page-section */
 
-@media (min-width: 975px) {
+ @media (min-width: 975px) {
   .container {
     width: 35vw;
   }
-}
+} 
 
 @media (min-width: 1680px) {
   .project-picture {
@@ -58,8 +58,6 @@ body{
 #about-info > p, #education-info>p{
   font-size: large;
 }
-
-
 
 /* education info */
 #years-attended{
@@ -93,7 +91,17 @@ body{
 
 /* Work Section */
 
+@media (min-width:768px) {
+  .job-desc{font-size: 20px;}
+}
+
 /* Projects Section */
+
+@media (max-width: 575px) {
+  .featured-project{
+    padding: 20px;
+  }
+}
 
 @media (min-width: 1680px) {
   .project-picture {
